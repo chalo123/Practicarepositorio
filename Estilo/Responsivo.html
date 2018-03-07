@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+  margin: 0;
+}
+ul.topnav{
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #333;
+}
+
+ul.tovnav li{
+  float: left;
+}
+
+ul.tovnav li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active){ background-color: #111;
+}
+
+ul.topnav li a.active{ background-color: #4CAF50;
+}
+
+ul.topnav li.right { float:right;
+}
+
+@media screen and (max-width: 600 px){
+il.topnav li.right;
+ul.topnav li {float: none;
+}
+}
+
+
+</style>
+</head>
+<body>
+  <ul class="topnav">
+    <li> <a class="active" href="#home">Home</a></li>
+    <li><a href="#Inicio">Inicio</a></li>
+      <li><a href="#Noticias">Notocias</a></li>
+      <li> <a href="#Contactos">Contactos</a></li>
+      <li><a href="#Acerca">Acerca de..</a></li>
+  </ul>
+
+  <h1>Este es un ejemplo de responsivo</h1>
+  <p>Hola mundo y todos los que lo habitan</p>
+</body>
+
+</html>
